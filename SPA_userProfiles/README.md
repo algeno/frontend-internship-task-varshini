@@ -26,25 +26,7 @@ This project showcases a list of user profiles in a clean and responsive UI. Eac
 3. Create reusable `UserCard` component
 4. Import users’ data from `users.json`
 5. Display user profiles dynamically in the SPA
-
----
-## Folder Structure
+6. Create emoji.json
 
 
-SPA_userProfiles/
-├─ node_modules/
-├─ src/
-│ ├─ components/
-│ │ └─ UserCard/
-│ ├─ data/
-│ │ └─ users.json
-│ ├─ App.jsx
-│ ├─ main.jsx
-│ └─ index.css
-├─ .gitignore
-├─ eslint.config.js
-├─ package-lock.json
-├─ package.json
-└─ vite.config.js
-## Folder Structure
 
