@@ -9,7 +9,7 @@ const UserCard = ({user}) => {
       />
         <p className="text-xl font-semibold text-gray-800">Name: {user.name}</p>
         <p  className="text-gray-500">Age: {user.age}</p>
-        <p  className="text-gray-500">Favourite Food: {user.favoriteFood} </p>
+        <p  className="text-gray-500">Favourite Food: {user.favoriteFood} {emoji.find(e => e.name === user.favoriteFood)?.emoji} </p>
     </div>
   )
 }
